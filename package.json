@@ -1,0 +1,16 @@
+{
+  "name": "featurevisor-example-openfeature-nodejs",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Example Node.js app using the Featurevisor OpenFeature provider",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@featurevisor/openfeature-provider-node": "^3.2.0",
+    "@openfeature/server-sdk": "^1.22.0"
+  }
+}
