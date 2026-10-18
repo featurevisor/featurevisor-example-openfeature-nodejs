@@ -5,7 +5,7 @@ import { FeaturevisorOpenFeatureProvider } from "@featurevisor/openfeature-provi
 import { OpenFeature } from "@openfeature/server-sdk";
 
 const datafile = {
-  schemaVersion: "2",
+  schemaVersion: "4",
   revision: "test",
   segments: {},
   features: {
@@ -33,7 +33,7 @@ const datafile = {
       traffic: [
         {
           key: "everyone",
-          segments: "*",
+          conditions: "*",
           percentage: 100000,
           variation: "on",
         },
